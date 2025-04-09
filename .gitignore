@@ -1,0 +1,30 @@
+# Test binary, build artifacts
+*.test
+*.out
+*.zip
+
+# Build directories
+/build/
+*.zip
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform*
+tfplan
+
+# Environment variables
+*.env
+!*.env.sample
