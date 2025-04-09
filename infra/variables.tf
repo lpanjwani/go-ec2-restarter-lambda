@@ -27,5 +27,5 @@ variable "instance_id" {
 variable "schedule_expression" {
   description = "CloudWatch Events schedule expression"
   type        = string
-  default     = "rate(5 minutes)"
+  default     = "rate(15 minutes)"
 }
