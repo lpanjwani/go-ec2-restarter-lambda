@@ -6,7 +6,6 @@ variable "aws_region" {
 variable "aws_profile" {
   description = "AWS region"
   type        = string
-  default     = "mete"
 }
 
 variable "lambda_function_name" {
