@@ -1,4 +1,4 @@
-# EC2 Restarter Lambda
+# Go EC2 Restarter Lambda
 
 ## Environment Variables
 
